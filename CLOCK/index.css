@@ -39,7 +39,7 @@ h1 {
 
 .clock-dot.on {
   background: linear-gradient(circle, #9f00ff, #e6ccff);
-  box-shadow: 0 0 10px rgba(160, 0, 255, 0.8), 0 0 20px rgba(160, 0, 255, 0.5), 0 0 30px rgba(230, 205, 255, 0.3);
+  box-shadow: 0 0 10px rgba(255, 0, 30, 0.8), 0 0 20px rgba(255, 0, 0), 0 0 30px rgba(230, 205, 255);
   border-radius: 50%;
   transition: 0.2s;
   opacity: 1;
@@ -50,4 +50,5 @@ h1 {
   padding: 0 10px;
   line-height: 120px;
   color : yellow;
+
 }
