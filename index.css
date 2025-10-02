@@ -1,0 +1,53 @@
+body {
+  font-family: 'Poppins',sans-serif;
+  background: #0a021c;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  padding-top: 180px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.digit {
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-rows: repeat(5, 20px);
+  gap: 4px;
+}
+
+.clock-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #2a223d;
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.05), inset -1px -1px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  opacity: 0.2;
+}
+
+.clock-dot.on {
+  background: linear-gradient(circle, #9f00ff, #e6ccff);
+  box-shadow: 0 0 10px rgb(255, 0, 30), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 150, 150);
+  border-radius: 50%;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.separator {
+  font-size: 75px;
+  padding: 0 10px;
+  line-height: 120px;
+  color : yellow;
+}
